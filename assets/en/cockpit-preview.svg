@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="100%" height="420">
+  <rect width="1200" height="420" rx="16" fill="#070a10" stroke="#1e293b" stroke-width="2"/>
+
+  <rect x="20" y="20" width="660" height="380" rx="12" fill="#0b0f17" stroke="#1e293b" stroke-width="1.2"/>
+  <text x="44" y="54" fill="#64748b" font-family="Consolas, monospace" font-size="13" font-weight="700">ANTIGRAVITY MAIN CHAT (ARCHITECT — 2 TURNS ONLY)</text>
+  
+  <rect x="44" y="74" width="610" height="58" rx="8" fill="#111827" stroke="#1e293b"/>
+  <text x="60" y="98" fill="#94a3b8" font-family="Consolas, monospace" font-size="12">User: "Add JWT refresh, rate-limiting, and unit tests to auth.py."</text>
+  <text x="60" y="118" fill="#38bdf8" font-family="Consolas, monospace" font-size="12">Antigravity → MCP: `run_parts` (3 atomic parts dispatched to local daemon)</text>
+
+  <rect x="44" y="148" width="610" height="110" rx="8" fill="#0d1f1c" stroke="#10b981" stroke-width="1"/>
+  <text x="60" y="174" fill="#10b981" font-family="Consolas, monospace" font-size="12.5" font-weight="700">✓ Token Economy MCP Report (Completed with 0 Cloud Quota):</text>
+  <text x="60" y="198" fill="#e2e8f0" font-family="Consolas, monospace" font-size="12">• Part 1 [auth.py:42-88]   PASS (qwen2.5-coder:7b • 53.1 tok/s • 0 retries)</text>
+  <text x="60" y="218" fill="#e2e8f0" font-family="Consolas, monospace" font-size="12">• Part 2 [limiter.py:1-54] PASS (qwen2.5-coder:7b • 51.8 tok/s • 1 self-fix)</text>
+  <text x="60" y="238" fill="#e2e8f0" font-family="Consolas, monospace" font-size="12">• Part 3 [test_auth.py]    PASS (pytest: 6/6 passed • Saved: ~38,400 tokens)</text>
+
+  <rect x="44" y="274" width="610" height="104" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="60" y="302" fill="#cbd5e1" font-family="'Segoe UI', sans-serif" font-size="13.5" font-weight="700">Hot Memory (`.token-economy/hot.md` — 12-Line Auto Handoff):</text>
+  <text x="60" y="326" fill="#94a3b8" font-family="Consolas, monospace" font-size="12">- Active: JWT refresh + rate-limit completed (checkpoint #a84f2)</text>
+  <text x="60" y="346" fill="#94a3b8" font-family="Consolas, monospace" font-size="12">- Lesson (`lessons.json`): Use `py -m pytest` on this Windows host</text>
+  <text x="60" y="366" fill="#10b981" font-family="Consolas, monospace" font-size="12">- Next session resumes here without re-reading chat history.</text>
+
+  <rect x="700" y="20" width="480" height="380" rx="12" fill="#0c111b" stroke="#10b981" stroke-width="2"/>
+  
+  <rect x="700" y="20" width="480" height="46" rx="12" fill="#111827"/>
+  <circle cx="724" cy="43" r="6" fill="#10b981"/>
+  <text x="738" y="48" fill="#f8fafc" font-family="Consolas, monospace" font-size="14" font-weight="800">TOKEN ECONOMY</text>
+  <rect x="885" y="30" width="92" height="24" rx="12" fill="#065f46"/>
+  <text x="896" y="46" fill="#a7f3d0" font-family="Consolas, monospace" font-size="11" font-weight="700">SAVER MODE</text>
+  <rect x="985" y="30" width="84" height="24" rx="12" fill="#1e1b4b" stroke="#a855f7"/>
+  <text x="998" y="46" fill="#d8b4fe" font-family="Consolas, monospace" font-size="11" font-weight="700">LAB MODE</text>
+  <text x="1135" y="47" fill="#94a3b8" font-family="Consolas, monospace" font-size="11" font-weight="700">EN|TR</text>
+
+  <rect x="716" y="76" width="448" height="44" rx="8" fill="#070a10" stroke="#1e293b"/>
+  <text x="730" y="95" fill="#38bdf8" font-family="Consolas, monospace" font-size="11" font-weight="700">VRAM: 5.03/8.0 GB (100% GPU)</text>
+  <text x="935" y="95" fill="#10b981" font-family="Consolas, monospace" font-size="11" font-weight="700">SPD: 52.5 tok/s</text>
+  <text x="1055" y="95" fill="#f59e0b" font-family="Consolas, monospace" font-size="11" font-weight="700">CTX: 3.1K/16K</text>
+  <rect x="730" y="105" width="420" height="6" rx="3" fill="#1e293b"/>
+  <rect x="730" y="105" width="180" height="6" rx="3" fill="#10b981"/>
+
+  <rect x="716" y="130" width="215" height="32" rx="6" fill="#111827" stroke="#334155"/>
+  <text x="728" y="150" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11.5">Model: qwen2.5-coder:7b ▾</text>
+  <rect x="940" y="130" width="110" height="32" rx="6" fill="#111827" stroke="#334155"/>
+  <text x="952" y="150" fill="#94a3b8" font-family="Consolas, monospace" font-size="11.5">think: OFF</text>
+  <rect x="1058" y="130" width="106" height="32" rx="6" fill="#111827" stroke="#334155"/>
+  <text x="1070" y="150" fill="#94a3b8" font-family="Consolas, monospace" font-size="11.5">temp: 0.2</text>
+
+  <rect x="716" y="172" width="448" height="126" rx="8" fill="#070a10" stroke="#1e293b"/>
+  <text x="730" y="194" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">[LIVE PATCH &amp; VERIFIER STREAM — 0 CLOUD TOKENS]</text>
+  <text x="730" y="216" fill="#f87171" font-family="Consolas, monospace" font-size="11.5">- def refresh_token(token: str):</text>
+  <text x="730" y="234" fill="#34d399" font-family="Consolas, monospace" font-size="11.5">+ def refresh_token(token: str, leeway_sec: int = 30) -&gt; dict:</text>
+  <text x="730" y="252" fill="#34d399" font-family="Consolas, monospace" font-size="11.5">+     payload = verify_jwt(token, leeway=leeway_sec)</text>
+  <text x="730" y="274" fill="#10b981" font-family="Consolas, monospace" font-size="11.5" font-weight="700">✓ py_compile: OK  |  ✓ pytest: 6 passed in 0.42s</text>
+
+  <rect x="716" y="308" width="448" height="36" rx="6" fill="#111827" stroke="#334155"/>
+  <text x="730" y="330" fill="#64748b" font-family="'Segoe UI', sans-serif" font-size="12">Enter 0-Quota local coding task (zero Antigravity quota)...</text>
+
+  <rect x="716" y="354" width="138" height="32" rx="6" fill="#10b981"/>
+  <text x="742" y="374" fill="#052e16" font-family="Consolas, monospace" font-size="11.5" font-weight="800">▶ RUN LOCAL</text>
+
+  <rect x="864" y="354" width="136" height="32" rx="6" fill="#1e293b"/>
+  <text x="890" y="374" fill="#e2e8f0" font-family="Consolas, monospace" font-size="11.5">↩ ROLLBACK</text>
+
+  <rect x="1010" y="354" width="154" height="32" rx="6" fill="#1e1b4b" stroke="#38bdf8"/>
+  <text x="1024" y="374" fill="#38bdf8" font-family="Consolas, monospace" font-size="11.5">⚡ ASK ARCHITECT</text>
+</svg>

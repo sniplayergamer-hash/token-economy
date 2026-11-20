@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 380" width="100%" height="380">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="55%" stop-color="#0c121e"/>
+      <stop offset="100%" stop-color="#070a10"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+    <pattern id="dots" x="0" y="0" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1" fill="#1e293b" opacity="0.65"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="380" rx="18" fill="url(#bg)" stroke="#1e293b" stroke-width="2"/>
+  <rect width="1200" height="380" rx="18" fill="url(#dots)"/>
+  <rect x="60" y="0" width="1080" height="3" fill="url(#accent)"/>
+
+  <rect x="60" y="34" width="370" height="30" rx="15" fill="#0f172a" stroke="#10b981" stroke-width="1.2"/>
+  <circle cx="80" cy="49" r="5" fill="#10b981"/>
+  <text x="96" y="54" fill="#10b981" font-family="Consolas, 'JetBrains Mono', monospace" font-size="12" font-weight="700">ZERO-TRUST LOCAL CODING ENGINE • v0.1</text>
+
+  <rect x="910" y="34" width="230" height="30" rx="15" fill="#18121e" stroke="#a855f7" stroke-width="1"/>
+  <text x="930" y="54" fill="#d8b4fe" font-family="Consolas, monospace" font-size="11" font-weight="700">🔒 Ed25519 SIGNED &amp; PROTECTED</text>
+
+  <text x="60" y="132" fill="#f8fafc" font-family="'Segoe UI', Inter, system-ui, sans-serif" font-size="64" font-weight="900" letter-spacing="-1.5">TOKEN ECONOMY</text>
+  <rect x="60" y="148" width="260" height="4" rx="2" fill="url(#accent)"/>
+
+  <text x="60" y="186" fill="#cbd5e1" font-family="'Segoe UI', Inter, sans-serif" font-size="20" font-weight="500">
+    Slash cloud coding quotas by <tspan fill="#10b981" font-weight="800">70%–95%</tspan>. Run local Ollama models (4B–9B) with zero tool hallucinations
+  </text>
+  <text x="60" y="214" fill="#94a3b8" font-family="'Segoe UI', Inter, sans-serif" font-size="18">
+    via a deterministic Python harness, right-pane Antigravity Sidecar cockpit, MCP server &amp; signed self-evolution.
+  </text>
+
+  <rect x="60" y="246" width="255" height="98" rx="12" fill="url(#cardBg)" stroke="#10b981" stroke-width="1.2"/>
+  <text x="80" y="276" fill="#64748b" font-family="Consolas, monospace" font-size="11" font-weight="700">CLOUD QUOTA SAVINGS</text>
+  <text x="80" y="312" fill="#10b981" font-family="'Segoe UI', sans-serif" font-size="32" font-weight="900">70% – 100%</text>
+  <text x="80" y="332" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">0% in Sidecar • -85% in Hybrid</text>
+
+  <rect x="335" y="246" width="255" height="98" rx="12" fill="url(#cardBg)" stroke="#38bdf8" stroke-width="1.2"/>
+  <text x="355" y="276" fill="#64748b" font-family="Consolas, monospace" font-size="11" font-weight="700">8 GB VRAM REAL SPEED</text>
+  <text x="355" y="312" fill="#38bdf8" font-family="'Segoe UI', sans-serif" font-size="32" font-weight="900">71.0 tok/s</text>
+  <text x="355" y="332" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">100% GPU • 16K Pinned Context</text>
+
+  <rect x="610" y="246" width="255" height="98" rx="12" fill="url(#cardBg)" stroke="#f59e0b" stroke-width="1.2"/>
+  <text x="630" y="276" fill="#64748b" font-family="Consolas, monospace" font-size="11" font-weight="700">TOOL &amp; PATCH HALLUCINATION</text>
+  <text x="630" y="312" fill="#f59e0b" font-family="'Segoe UI', sans-serif" font-size="32" font-weight="900">0% Deterministic</text>
+  <text x="630" y="332" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">AST + Fuzzy Patch + Auto-Test</text>
+
+  <rect x="885" y="246" width="255" height="98" rx="12" fill="url(#cardBg)" stroke="#a855f7" stroke-width="1.2"/>
+  <text x="905" y="276" fill="#64748b" font-family="Consolas, monospace" font-size="11" font-weight="700">ZERO-TRUST EVOLUTION</text>
+  <text x="905" y="312" fill="#c084fc" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="900">Saver ↔ Lab</text>
+  <text x="905" y="332" fill="#94a3b8" font-family="Consolas, monospace" font-size="11">Ed25519 Signed • Auto-Rollback</text>
+</svg>

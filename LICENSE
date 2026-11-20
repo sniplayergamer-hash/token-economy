@@ -1,0 +1,65 @@
+TOKEN ECONOMY — PROPRIETARY SOFTWARE & ANTI-CLONING LICENSE
+Copyright (c) 2026 Mehmet (sniplayergamer-hash). Tüm Hakları Saklıdır / All Rights Reserved.
+
+================================================================================
+1. MÜLKİYET VE TELİF HAKKI (OWNERSHIP & COPYRIGHT)
+================================================================================
+"Token Economy" yazılımı, çekirdek mimarisi ("Athlete Brain + Deterministic
+Engine + Apprentice Hand"), Zero-Trust Küratör Hunisi, 6'lı Context Zırhı,
+kaynak kodları, derlenmiş ikili dosyaları (binaries), görsel tasarımları,
+dokümantasyonu ve kriptografik şemaları (birlikte "Yazılım") uluslararası
+telif hakkı yasaları ve fikrî mülkiyet sözleşmeleri kapsamında Mehmet
+(sniplayergamer-hash) mülkiyetindedir. Bu yazılım açık kaynaklı (MIT/Apache/GPL)
+DEĞİLDİR.
+
+================================================================================
+2. KULLANIM İZNİ — YALNIZ SON KULLANICI (LIMITED END-USER GRANT)
+================================================================================
+Telif sahibinin resmî dağıtım kanalından indiren kullanıcılara yalnızca:
+  (a) Yazılımın resmî imzalı kullanıcı sürümünü ("User Edition") kendi
+      bilgisayarlarında çalıştırma,
+  (b) Yazılımın izinli deklaratif uzantı yüzeyine (`extensions/`) resmî
+      paketleyici aracılığıyla imzalı geliştirme önerisi gönderme
+hakkı tanınmıştır.
+
+================================================================================
+3. KESİN YASAKLAR (STRICT PROHIBITIONS — ANTI-CLONE & ANTI-AI-COPY)
+================================================================================
+Telif sahibinin önceden yazılı ve imzalı izni olmaksızın aşağıdaki eylemler
+kesinlikle YASAKTIR:
+
+  1. KOPYALAMA VE ÇATALLAMA (NO FORKING / REDISTRIBUTION):
+     Yazılımın tamamını veya herhangi bir parçasını kopyalamak, çoğaltmak,
+     başka bir GitHub/Git deposunda yayınlamak, yeniden dağıtmak veya satmak.
+
+  2. TERSİNE MÜHENDİSLİK (NO REVERSE ENGINEERING):
+     Derlenmiş sürümleri (`User Edition`), ikili dosyaları veya kriptografik
+     imza/damga (`watermark`) mekanizmalarını kaynak koda dönüştürmek
+     (decompile, disassemble), değiştirmek veya devre dışı bırakmak.
+
+  3. YAPAY ZEKÂ İLE KLONLAMA VE EĞİTİM YASAĞI (NO AI CLONING / TRAINING):
+     Yazılımın kodlarını, mimari sözleşmesini, istem (prompt) yapılarını,
+     arayüzünü veya dokümantasyonunu herhangi bir Büyük Dil Modeline (LLM),
+     kodlama ajanına veya yapay zekâ sistemine vererek benzer/türev bir proje
+     ürettirmek, klonlatmak veya model eğitiminde/ince ayarında kullanmak.
+
+  4. TÜREV VE RAKİP PROJE YASAĞI (NO DERIVATIVE WORKS):
+     Bu yazılımın mimari akışını veya bileşenlerini temel alan benzer/türev
+     bir yazılım, eklenti veya servis geliştirmek.
+
+================================================================================
+4. KATKILAR VE İMZALI ÖNERİLER (COMMUNITY SUBMISSIONS)
+================================================================================
+Kullanıcıların `extensions/` altına gönderdiği tüm geliştirme önerileri,
+gönderildiği andan itibaren ana "Token Economy" projesinde kullanılmak,
+değiştirilmek ve dağıtılmak üzere telif sahibine süresiz, gayrikabili rücu ve
+ücretsiz olarak lisanslanmış sayılır. Ana depoyu ve resmî sürümleri yönetme,
+imzalama ve yayınlama yetkisi münhasıran telif sahibine (`Maintainer Edition`)
+aittir.
+
+================================================================================
+5. İHLAL VE YAPTIRIM (ENFORCEMENT & DMCA)
+================================================================================
+Bu sözleşmenin ihlali halinde kullanım lisansı kendiliğinden sona erer ve
+telif sahibi DMCA Takedown (depo kapatma) ile ulusal/uluslararası hukuki ve
+cezai yaptırım haklarını derhal kullanır.

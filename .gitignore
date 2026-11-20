@@ -1,0 +1,7 @@
+﻿# Public showcase repo: only README/LICENSE/assets are tracked.
+/*
+!/README.md
+!/README.tr.md
+!/LICENSE
+!/assets/
+!/.gitignore

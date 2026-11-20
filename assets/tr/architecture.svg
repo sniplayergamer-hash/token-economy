@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 470" width="100%" height="470">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070a10"/>
+      <stop offset="100%" stop-color="#0b111e"/>
+    </linearGradient>
+    <marker id="arrowGreen" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#10b981"/>
+    </marker>
+    <marker id="arrowBlue" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrowPurple" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#a855f7"/>
+    </marker>
+  </defs>
+
+  <rect width="1200" height="470" rx="16" fill="url(#bg2)" stroke="#1e293b" stroke-width="2"/>
+  <text x="40" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="20" font-weight="800">MİMARİ: ATLET BEYİN + DETERMİNİSTİK MOTOR + ÇIRAK EL</text>
+  <text x="40" y="64" fill="#64748b" font-family="Consolas, monospace" font-size="12">Küçük modele karmaşık tool-calling yaptırılmaz; araçları Python motoru sıfır hatayla yürütür.</text>
+
+  <!-- Tier 1: 3 Doors -->
+  <rect x="40" y="90" width="340" height="105" rx="12" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="60" y="118" fill="#38bdf8" font-family="Consolas, monospace" font-size="13" font-weight="700">1. ATLET BEYİN (ANTIGRAVITY / IDE)</text>
+  <text x="60" y="142" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• Projeyi sembol haritasıyla 1 turda böler</text>
+  <text x="60" y="162" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• Tek MCP çağrısıyla Part 1..N paketi bırakır</text>
+  <text x="60" y="182" fill="#10b981" font-family="Consolas, monospace" font-size="12">• 20 tur yerine yalnız 2 kısa tur kota harcar</text>
+
+  <rect x="430" y="90" width="340" height="105" rx="12" fill="#0f172a" stroke="#10b981" stroke-width="1.5"/>
+  <text x="450" y="118" fill="#10b981" font-family="Consolas, monospace" font-size="13" font-weight="700">2. SAĞ PANEL KOKPİTİ (SIDECAR UI)</text>
+  <text x="450" y="142" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• %0 Bulut Kotası ile doğrudan yerel kodlama</text>
+  <text x="450" y="162" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• Canlı SSE kod, diff, test, VRAM ve tok/s</text>
+  <text x="450" y="182" fill="#38bdf8" font-family="Consolas, monospace" font-size="12">• Saver ↔ Lab Modu • Durdur / Geri Al</text>
+
+  <rect x="820" y="90" width="340" height="105" rx="12" fill="#0f172a" stroke="#f59e0b" stroke-width="1.5"/>
+  <text x="840" y="118" fill="#f59e0b" font-family="Consolas, monospace" font-size="13" font-weight="700">3. TERMİNAL CLI &amp; BENCHMARK</text>
+  <text x="840" y="142" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• Aynı canlı motora sıfır gecikmeli erişim</text>
+  <text x="840" y="162" fill="#e2e8f0" font-family="'Segoe UI', sans-serif" font-size="13">• 3-Model Yarışı (4b vs 7b vs 9b otomatik)</text>
+  <text x="840" y="182" fill="#f59e0b" font-family="Consolas, monospace" font-size="12">• py cli.py run | inspect | bench | rollback</text>
+
+  <!-- Arrows down to Daemon -->
+  <line x1="210" y1="195" x2="210" y2="232" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+  <line x1="600" y1="195" x2="600" y2="232" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+  <line x1="990" y1="195" x2="990" y2="232" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrowBlue)"/>
+
+  <!-- Tier 2: Central Daemon -->
+  <rect x="40" y="240" width="1120" height="115" rx="14" fill="#111827" stroke="#10b981" stroke-width="2"/>
+  <text x="62" y="268" fill="#10b981" font-family="Consolas, monospace" font-size="14" font-weight="800">TEKLİ CANLI YEREL MOTOR (token_economy/daemon.py — Kilitli Çekirdek)</text>
+  <text x="62" y="293" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="13">• <tspan fill="#38bdf8" font-weight="700">Deterministik Kas:</tspan> AST repo_map • read_range • fuzzy SEARCH/REPLACE • git checkpoint • RTK log damıtıcı</text>
+  <text x="62" y="315" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="13">• <tspan fill="#10b981" font-weight="700">AI'sız Doğrulayıcı:</tspan> py_compile / node --check / pytest → Hata varsa 2× yerel oto-tamir (0 bulut tokenı)</text>
+  <text x="62" y="337" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="13">• <tspan fill="#f59e0b" font-weight="700">6'lı Context Zırhı:</tspan> keep_alive kilidi • %100 GPU sabit num_ctx • KV prefix cache • %70 sıkıştırma • hot.md</text>
+
+
+  <!-- Arrow down to Ollama -->
+  <line x1="600" y1="355" x2="600" y2="385" stroke="#10b981" stroke-width="2" marker-end="url(#arrowGreen)"/>
+
+  <!-- Tier 3: Local Ollama Pool -->
+  <rect x="40" y="392" width="1120" height="58" rx="12" fill="#0b1320" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="65" y="426" fill="#38bdf8" font-family="Consolas, monospace" font-size="14" font-weight="800">ÇIRAK EL — YEREL OLLAMA HAVUZU (%100 GPU):</text>
+  <text x="435" y="426" fill="#10b981" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen3.5:4b (16K • 71 tok/s)</text>
+  <text x="675" y="426" fill="#f8fafc" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen2.5-coder:7b (16K • 52.5 tok/s)</text>
+  <text x="955" y="426" fill="#c084fc" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen3.5:9b (8K • 44 tok/s)</text>
+</svg>

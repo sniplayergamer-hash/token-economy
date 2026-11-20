@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <rect width="1200" height="360" rx="16" fill="#070a10" stroke="#1e293b" stroke-width="2"/>
+
+  <text x="40" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">BENCHMARK 1: RTX 4060 Ti (8 GB VRAM) SPEED &amp; 100% GPU CEILING</text>
+  <text x="40" y="64" fill="#64748b" font-family="Consolas, monospace" font-size="12">Ollama 0.40.16 • Flash Attention = ON • KV Cache = q8_0</text>
+
+  <text x="40" y="112" fill="#e2e8f0" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen3.5:4b (ctx=16384)</text>
+  <rect x="270" y="94" width="284" height="26" rx="6" fill="#10b981"/>
+  <text x="564" y="112" fill="#10b981" font-family="Consolas, monospace" font-size="13" font-weight="800">71.0 tok/s • 100% GPU (3.44 GB)</text>
+
+  <text x="40" y="162" fill="#e2e8f0" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen2.5-coder:7b (16384)</text>
+  <rect x="270" y="144" width="210" height="26" rx="6" fill="#38bdf8"/>
+  <text x="490" y="162" fill="#38bdf8" font-family="Consolas, monospace" font-size="13" font-weight="800">52.5 tok/s • 100% GPU (5.03 GB)</text>
+
+  <text x="40" y="212" fill="#e2e8f0" font-family="Consolas, monospace" font-size="13" font-weight="700">qwen3.5:9b (ctx=8192)</text>
+  <rect x="270" y="194" width="176" height="26" rx="6" fill="#a855f7"/>
+  <text x="456" y="212" fill="#c084fc" font-family="Consolas, monospace" font-size="13" font-weight="800">44.0 tok/s • 100% GPU (5.62 GB)</text>
+
+  <text x="40" y="262" fill="#94a3b8" font-family="Consolas, monospace" font-size="13">qwen3.5:9b (ctx=16384)</text>
+  <rect x="270" y="244" width="128" height="26" rx="6" fill="#ef4444" opacity="0.8"/>
+  <text x="408" y="262" fill="#f87171" font-family="Consolas, monospace" font-size="12.5" font-weight="700">32.2 tok/s • 85.5% GPU (CPU Spill — Blocked)</text>
+
+  <rect x="40" y="294" width="540" height="42" rx="8" fill="#0f172a" stroke="#1e293b"/>
+  <text x="56" y="320" fill="#94a3b8" font-family="Consolas, monospace" font-size="11.5">✓ `probe_models` auto-calibrates any GPU to prevent CPU offloading.</text>
+
+  <line x1="615" y1="30" x2="615" y2="330" stroke="#1e293b" stroke-width="2"/>
+
+  <text x="645" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">BENCHMARK 2: CLOUD QUOTA ON A 4-PART FEATURE</text>
+  <text x="645" y="64" fill="#64748b" font-family="Consolas, monospace" font-size="12">File scan + 4 function patches + pytest run + 2 self-fix retries</text>
+
+  <rect x="645" y="92" width="515" height="68" rx="10" fill="#1a1118" stroke="#ef4444" stroke-width="1.2"/>
+  <text x="665" y="118" fill="#f87171" font-family="Consolas, monospace" font-size="13" font-weight="700">STANDARD CLOUD AGENT (Alone)</text>
+  <text x="665" y="142" fill="#cbd5e1" font-family="Consolas, monospace" font-size="12.5">18 Cloud Turns • ~46,000 Cloud Tokens (100% Quota Burn)</text>
+  <rect x="1030" y="106" width="110" height="36" rx="6" fill="#7f1d1d"/>
+  <text x="1042" y="129" fill="#fecaca" font-family="Consolas, monospace" font-size="13" font-weight="800">100% BURN</text>
+
+  <rect x="645" y="176" width="515" height="68" rx="10" fill="#0d1f1c" stroke="#10b981" stroke-width="1.5"/>
+  <text x="665" y="202" fill="#10b981" font-family="Consolas, monospace" font-size="13" font-weight="700">TOKEN ECONOMY — ARCHITECT + APPRENTICE (MCP)</text>
+  <text x="665" y="226" fill="#cbd5e1" font-family="Consolas, monospace" font-size="12.5">2 Cloud Turns + 14 Local Ollama Turns • ~3,900 Cloud Tokens</text>
+  <rect x="1030" y="190" width="110" height="36" rx="6" fill="#065f46"/>
+  <text x="1040" y="213" fill="#a7f3d0" font-family="Consolas, monospace" font-size="13" font-weight="800">-91% QUOTA</text>
+
+  <rect x="645" y="260" width="515" height="76" rx="10" fill="#0c192c" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="665" y="286" fill="#38bdf8" font-family="Consolas, monospace" font-size="13" font-weight="700">TOKEN ECONOMY — RIGHT-PANE DIRECT MODE</text>
+  <text x="665" y="310" fill="#cbd5e1" font-family="Consolas, monospace" font-size="12.5">0 Cloud Turns • All read/patch/test loops run on local GPU</text>
+  <rect x="1030" y="278" width="110" height="36" rx="6" fill="#0369a1"/>
+  <text x="1046" y="301" fill="#e0f2fe" font-family="Consolas, monospace" font-size="13" font-weight="800">0% QUOTA</text>
+</svg>
