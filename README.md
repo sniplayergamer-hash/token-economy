@@ -37,7 +37,7 @@
 
 ---
 
-> **Token Economy** is a deterministic local coding harness, MCP server, and Antigravity right-pane Sidecar cockpit that **slashes cloud coding agent quotas (Antigravity, Claude Code, Cursor, Codex) by 70%–95%**, driving local 4B–9B Ollama models (`qwen3.5:4b`, `qwen2.5-coder:7b`, `qwen3.5:9b`) on an 8 GB VRAM GPU with **zero tool-calling hallucinations**.
+> **Token Economy** is a deterministic local coding harness, MCP server, and Antigravity right-pane Sidecar cockpit — **also usable from Claude Code through standard MCP** — that **slashes cloud coding agent quotas by 70%–95%**, driving local 4B–9B Ollama models (`qwen3.5:4b`, `qwen2.5-coder:7b`, `qwen3.5:9b`) on an 8 GB VRAM GPU with **zero tool-calling hallucinations**.
 
 ---
 

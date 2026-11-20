@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/G%C3%BCvenlik-Ed25519_%C4%B0mzal%C4%B1_%26_Korumal%C4%B1-f59e0b?style=for-the-badge" alt="Güvenlik"/>
 </p>
 
-> **Token Economy**, bulut kodlama ajanlarının (Antigravity, Claude Code, Cursor, Codex) pahalı token kotasını **%70 ila %95 oranında düşüren**, 8 GB VRAM'li standart bir ekran kartında bile yerel Ollama modellerini (`qwen3.5:4b`, `qwen2.5-coder:7b`, `qwen3.5:9b`) **sıfır araç halüsinasyonuyla** çalıştıran deterministik kodlama motoru ve sağ panel kokpitidir.
+> **Token Economy**, bulut kodlama ajanlarının pahalı token kotasını **%70 ila %95 oranında düşüren** deterministik kodlama motoru, MCP sunucusu ve **Antigravity** sağ panel kokpitidir; standart MCP sayesinde **Claude Code ile de çalışır**. 8 GB VRAM'li standart bir ekran kartında bile yerel Ollama modellerini (`qwen3.5:4b`, `qwen2.5-coder:7b`, `qwen3.5:9b`) **sıfır araç halüsinasyonuyla** çalıştırır.
 
 ---
 
