@@ -25,7 +25,7 @@
 
   <line x1="615" y1="30" x2="615" y2="330" stroke="#1e293b" stroke-width="2"/>
 
-  <text x="645" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">BENCHMARK 2: CLOUD QUOTA ON A 4-PART FEATURE</text>
+  <text x="645" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">ILLUSTRATIVE ESTIMATE (NOT MEASURED): CLOUD QUOTA, 4-PART FEATURE</text>
   <text x="645" y="64" fill="#64748b" font-family="Consolas, monospace" font-size="12">File scan + 4 function patches + pytest run + 2 self-fix retries</text>
 
   <rect x="645" y="92" width="515" height="68" rx="10" fill="#1a1118" stroke="#ef4444" stroke-width="1.2"/>

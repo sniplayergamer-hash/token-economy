@@ -32,7 +32,7 @@
   <line x1="615" y1="30" x2="615" y2="330" stroke="#1e293b" stroke-width="2"/>
 
   <!-- Right Panel: Cloud Quota Consumption Comparison -->
-  <text x="645" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">GERÇEK ÖLÇÜM 2: 4 PARÇALIK ÖZELLİKTE BULUT KOTASI</text>
+  <text x="645" y="42" fill="#f8fafc" font-family="'Segoe UI', sans-serif" font-size="19" font-weight="800">TAHMİNİ SENARYO (ÖLÇÜLMEDİ): 4 PARÇALIK ÖZELLİKTE BULUT KOTASI</text>
   <text x="645" y="64" fill="#64748b" font-family="Consolas, monospace" font-size="12">Dosya tarama + 4 fonksiyon yaması + pytest doğrulama + 2 hata tamiri</text>
 
   <!-- Mode 1: Classic Cloud Agent -->

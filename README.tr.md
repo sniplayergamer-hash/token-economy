@@ -47,6 +47,16 @@ Bulut kodlama ajanlarında kotayı bitiren şey "mimari düşünme" değildir; *
 | **`qwen2.5-coder:7b`** | `16384` | 5.03 GB (%100 GPU) | **52.5 tok/s** | Geniş bağlamlı saf kod üretimi ve cerrahi `SEARCH/REPLACE` yaması |
 | **`qwen3.5:latest` (9B)** | `8192` | 5.62 GB (%100 GPU) | **44.0 tok/s** | Karmaşık mantık ve zor hata ayıklama (`think: true/false` destekli) |
 
+### ✅ Ölçülen kodlama doğruluğu (Token Economy motoru, 6 deterministik görev, gerçek kod doğrulamalı)
+
+| Model | Geçen | Oto-tamir turu | Ort. hız | Toplam süre |
+|---|---:|---:|---:|---:|
+| `qwen3.5:4b` | **6/6** | 1 | 67.8 tok/s | 15.5 s |
+| `qwen3.5:latest` (9B) | **6/6** | 1 | 41.3 tok/s | 21.3 s |
+| `qwen2.5-coder:7b` | 5/6 | 2 | 50.3 tok/s | 15.3 s |
+
+> Not: 6 küçük görevlik ilk set; varsayılan model bu sonuca göre `qwen3.5:4b`. Yukarıdaki "kota" grafiği **tahmini bir senaryodur**, henüz gerçek bulut ölçümü değildir; görseller tasarım önizlemesidir.
+
 ---
 
 ## 🖥️ Antigravity Sağ Panel Kokpiti & 3 Çalışma Modu

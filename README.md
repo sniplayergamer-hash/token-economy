@@ -74,6 +74,16 @@ Real empirical measurements on **NVIDIA GeForce RTX 4060 Ti (8 GB VRAM) + 16 GB 
 
 > **Auto-Calibration (`probe_models`):** Automatically detects the highest 100% GPU-resident context ceiling on any 8 GB, 16 GB, 24 GB, or Apple Silicon machine to prevent slow CPU/RAM spillovers.
 
+### ✅ Measured coding accuracy (Token Economy engine, 6 deterministic tasks, verified by running real code)
+
+| Model | Passed | Auto-repair rounds | Avg speed | Total time |
+|---|---:|---:|---:|---:|
+| `qwen3.5:4b` | **6/6** | 1 | 67.8 tok/s | 15.5 s |
+| `qwen3.5:latest` (9B) | **6/6** | 1 | 41.3 tok/s | 21.3 s |
+| `qwen2.5-coder:7b` | 5/6 | 2 | 50.3 tok/s | 15.3 s |
+
+> Note: first set of 6 small tasks; the default model follows this result (`qwen3.5:4b`). The "quota" chart above is an **illustrative estimate**, not a real cloud measurement yet; screenshots are design previews.
+
 ---
 
 ## 🖥️ Antigravity Right-Pane Cockpit & 3 Operating Modes
