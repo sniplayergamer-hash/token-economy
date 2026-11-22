@@ -19,8 +19,9 @@
 > 1. Download the latest `token-economy-user-*.zip` and `.zip.sig` from GitHub Releases (`sniplayergamer-hash/token-economy`), verify the Ed25519 signature (`maintainer.pub`), and extract to a clean tools directory (e.g. `~/.token-economy/app`).
 > 2. **Antigravity:** Run `py plugins/antigravity/install.py` (registers `~/.gemini/config/plugins/token-economy`, MCP server + right-pane Sidecar) and ask the user to toggle/reload `token-economy` once in Plugins if needed. Then surface `[Token Economy](sidecar://token-economy/token_economy_panel/)`.
 > 3. **Cline (Antigravity IDE / VS Code):** Run `py plugins/cline/install.py` (registers `token-economy` in `cline_mcp_settings.json` and installs the global rule `~/Documents/Cline/Rules/token-economy.md`).
-> 4. **Claude Code:** Run `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` (or configure `.mcp.json`), then run `py cli.py ui` to open the live dashboard.
-> 5. **Auto Hardware Scan & Self-Test:** Run `te_doctor` / `py cli.py doctor`. If `recommended_pull` is returned, run `py cli.py pull <model>` to install & auto-calibrate the safe GPU model, verify `ready: true`, and report proof cleanly to the user.
+> 4. **Other MCP Clients (OpenCode, OpenClaw/Claw, Hermes, Cursor, Windsurf, Claude Desktop):** Run `py plugins/install_all.py --target <client>` (or `--list` to see all targets).
+> 5. **Claude Code:** Run `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` (or configure `.mcp.json`), then run `py cli.py ui` to open the live dashboard.
+> 6. **Auto Hardware Scan & Self-Test:** Run `te_doctor` / `py cli.py doctor`. If `recommended_pull` is returned, run `py cli.py pull <model>` to install & auto-calibrate the safe GPU model, verify `ready: true`, and report proof cleanly to the user.
 >
 > </details>
 

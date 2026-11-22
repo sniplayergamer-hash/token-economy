@@ -19,8 +19,9 @@
 > 1. GitHub Releases (`sniplayergamer-hash/token-economy`) üzerinden son `token-economy-user-*.zip` + `.zip.sig` paketini indirin, Ed25519 imzasını (`maintainer.pub`) doğrulayıp yerel bir klasöre (`~/.token-economy/app`) açın.
 > 2. **Antigravity:** `py plugins/antigravity/install.py` komutunu çalıştırın (eklenti, MCP sunucusu ve sağ panel Sidecar otomatik kurulur); sohbette tek tık panel bağlantısı `[Token Economy](sidecar://token-economy/token_economy_panel/)` bağlantısını sunun.
 > 3. **Cline (Antigravity IDE / VS Code):** `py plugins/cline/install.py` komutunu çalıştırın (`cline_mcp_settings.json` içine `token-economy` MCP sunucusunu ve `~/Documents/Cline/Rules/token-economy.md` global kuralını otomatik ekler).
-> 4. **Claude Code:** `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` ile kurun; kokpiti tarayıcıda açmak için `py cli.py ui` çalıştırın.
-> 5. **Otomatik Donanım Tarama & Canlı Test:** Kurulum biter bitmez `te_doctor` (veya `py cli.py doctor`) çalıştırın. Güvenli model kurulu değilse `recommended_pull` modelini `py cli.py pull <model>` ile kurup kalibre edin ve `ready: true` kanıtıyla kullanıcıya bildirin.
+> 4. **Diğer MCP İstemcileri (OpenCode, OpenClaw/Claw, Hermes, Cursor, Windsurf, Claude Desktop):** `py plugins/install_all.py --target <istemci>` komutunu çalıştırın (tüm liste için `--list`).
+> 5. **Claude Code:** `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` ile kurun; kokpiti tarayıcıda açmak için `py cli.py ui` çalıştırın.
+> 6. **Otomatik Donanım Tarama & Canlı Test:** Kurulum biter bitmez `te_doctor` (veya `py cli.py doctor`) çalıştırın. Güvenli model kurulu değilse `recommended_pull` modelini `py cli.py pull <model>` ile kurup kalibre edin ve `ready: true` kanıtıyla kullanıcıya bildirin.
 >
 > </details>
 
