@@ -3,6 +3,27 @@
   <a href="README.tr.md"><img src="https://img.shields.io/badge/🇹🇷_Dil-T%C3%BCrk%C3%A7e_(Aktif)-10b981?style=for-the-badge" alt="Türkçe"/></a>
 </p>
 
+> ## ⚡ Tek Cümleyle Kurulum & 4 Adımda Hızlı Kullanım (Antigravity & Claude Code)
+> Bu GitHub bağlantısını **Antigravity** veya **Claude Code** sohbetine yapıştırıp şunu yazmanız yeterlidir:  
+> **`"Bunu sistemime eklenti olarak kur: https://github.com/sniplayergamer-hash/token-economy"`**
+>
+> **4 Adımda Hazır Hale Getirme:**
+> 1. **Kurulum:** Yapay zekâ ajanı Ed25519 imzalı `User Edition` sürümünü otomatik indirip eklenti ve MCP bağlantısını kurar.
+> 2. **Donanım Tarama & Doğrulama:** **"Eklenti kullanıma hazır mı?"** diye sorun — ajan `te_doctor` çalıştırıp ekran kartınızın VRAM'ini tarar, taşmayacak güvenli yerel modeli önerir/kurar ve canlı test sonucunu yazar.
+> 3. **Sağ Panel Kullanımı:** Sohbette sunulan **Token Economy** sağ panel bağlantısını açın (Claude Code'da `py cli.py ui`); dilinizi, `Saver` (0 ek bulut kotası) / `Lab` modunu ve anında VRAM boşaltan `ON / OFF` anahtarını seçin.
+> 4. **(İsteğe bağlı) Mobil Kontrol & Uzaktan PC Aç/Kapat:** Eklenti panelinden **4 haneli çalınma korumalı PIN** belirleyip `TokenEconomy-Mobile.apk`'yı eşleştirin; Wi-Fi dışından PC açmak için sabit `TokenEconomy-Relay.apk`'yı evdeki 2. telefona 1 kez kurun (hem Ev Wi-Fi hem Mobil Veri açık). Eklenti içindeki **`❓`** düğmesinden adım adım rehbere her an ulaşabilirsiniz.
+>
+> <details>
+> <summary><b>🤖 Yapay Zekâ Ajanı İçin Otomatik Kurulum Protokolü (Antigravity &amp; Claude Code)</b></summary>
+>
+> 1. GitHub Releases (`sniplayergamer-hash/token-economy`) üzerinden son `token-economy-user-*.zip` + `.zip.sig` paketini indirin, Ed25519 imzasını (`maintainer.pub`) doğrulayıp yerel bir klasöre (`~/.token-economy/app`) açın.
+> 2. **Antigravity:** `py plugins/antigravity/install.py` komutunu çalıştırın (eklenti, MCP sunucusu ve sağ panel Sidecar otomatik kurulur); sohbette tek tık panel bağlantısı `[Token Economy](sidecar://token-economy/token_economy_panel/)` bağlantısını sunun.
+> 3. **Cline (Antigravity IDE / VS Code):** `py plugins/cline/install.py` komutunu çalıştırın (`cline_mcp_settings.json` içine `token-economy` MCP sunucusunu ve `~/Documents/Cline/Rules/token-economy.md` global kuralını otomatik ekler).
+> 4. **Claude Code:** `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` ile kurun; kokpiti tarayıcıda açmak için `py cli.py ui` çalıştırın.
+> 5. **Otomatik Donanım Tarama & Canlı Test:** Kurulum biter bitmez `te_doctor` (veya `py cli.py doctor`) çalıştırın. Güvenli model kurulu değilse `recommended_pull` modelini `py cli.py pull <model>` ile kurup kalibre edin ve `ready: true` kanıtıyla kullanıcıya bildirin.
+>
+> </details>
+
 <p align="center">
   <img src="assets/tr/hero-banner.svg" alt="Token Economy Türkçe Banner" width="100%"/>
 </p>
@@ -90,3 +111,11 @@ Bulut kodlama ajanlarında kotayı bitiren şey "mimari düşünme" değildir; *
 
 **Copyright © 2026 Mehmet (`sniplayergamer-hash`). Tüm Hakları Saklıdır.**  
 Bu yazılım açık kaynaklı (MIT/GPL) **değildir**. Telif sahibinin yazılı izni olmadan **kopyalanması, çatallanması (fork), türev/benzer proje yapılması, tersine mühendislik uygulanması veya kodlarının/mimarisinin yapay zekâ modellerine okutularak klonlatılması** kesinlikle yasaktır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
+
+<!-- TE_HW_GUIDE_START -->
+### Donanım VRAM Rehberi, ON/OFF Güç Anahtarı, Unity KitWright MCP & Mobil APK (`v0.4.0`)
+- **Otomatik VRAM Kilidi:** Canlı GPU bütçesinin %88'ini aşan modeller ekran kartını kilitlemesin diye kilitlenir (`6GB: 4b` · `8GB: 4b/7b/9b` · `16GB: 14b` · `24-32GB+: 32b`).
+- **ON/OFF VRAM Boşaltma:** **KAPALI** yapıldığında tüm modeller `ollama stop` + `keep_alive: 0` ile boşaltılıp GPU anında serbest kalır.
+- **Unity & Blender Modu:** 3D sahne, geometri, shader ve KitWright MCP `execute_code` adımlarını bulut mimarda tutar; C# `repo_map`, `local_inspect` ve kablolamayı yerel Ollama'ya devreder.
+- **Mobil Kontrol APK & Sabit 2. Cihaz Röle (`v0.4.0`):** **Antigravity**, **Masaüstü** ve **Unity/Blender** ekranlarını eklentiden belirlenen **4 haneli çalınma korumalı PIN** ile mobilden canlı yönetin. Wi-Fi dışından PC açmak için sabit **TokenEconomy-Relay.apk**'yı evde duran 2. telefona 1 kez kurun (**hem Ev Wi-Fi hem Mobil Veri açık**, pil kısıtlaması kapalı) ve BIOS'tan `Power On By PCI-E` / `Wake on LAN` (`ErP Ready: Disabled`) açın. Ana APK eklenti güncellenince tek tıkla birlikte yenilenir.
+<!-- TE_HW_GUIDE_END -->

@@ -3,6 +3,27 @@
   <a href="README.tr.md"><img src="https://img.shields.io/badge/🇹🇷_Dil-T%C3%BCrk%C3%A7e_(Resimli_Tam_Sayfa)-38bdf8?style=for-the-badge" alt="Türkçe"/></a>
 </p>
 
+> ## ⚡ 1-Sentence Install & 4-Step Quickstart (Antigravity & Claude Code)
+> Paste this link into **Antigravity** or **Claude Code** and say:  
+> **`"Install this as a plugin on my system: https://github.com/sniplayergamer-hash/token-economy"`**
+>
+> **4 Steps to Ready:**
+> 1. **Install:** Your AI assistant downloads the Ed25519-signed `User Edition` release and registers the plugin & MCP automatically.
+> 2. **Scan & Verify:** Ask **"Is Token Economy ready?"** — the AI runs `te_doctor`, scans your GPU VRAM, recommends/pulls safe non-overflowing local models, and reports live pass status.
+> 3. **Use Cockpit:** Click the **Token Economy** right-pane panel link in chat (or run `py cli.py ui` in Claude Code); pick your language, `Saver` (0 extra cloud quota) / `Lab` mode, or `ON / OFF` (`OFF` frees 100% GPU VRAM immediately).
+> 4. **(Optional) Mobile Control & WoL:** Set a **4-digit anti-theft PIN** inside the plugin panel, pair `TokenEconomy-Mobile.apk`, and install the fixed `TokenEconomy-Relay.apk` once on a 2nd phone at home (with Home Wi-Fi + Mobile Data ON). Inside the plugin, click **`❓`** anytime for the interactive User Guide.
+>
+> <details>
+> <summary><b>🤖 AI Agent Auto-Install Protocol (For Antigravity &amp; Claude Code)</b></summary>
+>
+> 1. Download the latest `token-economy-user-*.zip` and `.zip.sig` from GitHub Releases (`sniplayergamer-hash/token-economy`), verify the Ed25519 signature (`maintainer.pub`), and extract to a clean tools directory (e.g. `~/.token-economy/app`).
+> 2. **Antigravity:** Run `py plugins/antigravity/install.py` (registers `~/.gemini/config/plugins/token-economy`, MCP server + right-pane Sidecar) and ask the user to toggle/reload `token-economy` once in Plugins if needed. Then surface `[Token Economy](sidecar://token-economy/token_economy_panel/)`.
+> 3. **Cline (Antigravity IDE / VS Code):** Run `py plugins/cline/install.py` (registers `token-economy` in `cline_mcp_settings.json` and installs the global rule `~/Documents/Cline/Rules/token-economy.md`).
+> 4. **Claude Code:** Run `/plugin marketplace add sniplayergamer-hash/token-economy` -> `/plugin install token-economy@token-economy` (or configure `.mcp.json`), then run `py cli.py ui` to open the live dashboard.
+> 5. **Auto Hardware Scan & Self-Test:** Run `te_doctor` / `py cli.py doctor`. If `recommended_pull` is returned, run `py cli.py pull <model>` to install & auto-calibrate the safe GPU model, verify `ready: true`, and report proof cleanly to the user.
+>
+> </details>
+
 <p align="center">
   <img src="assets/en/hero-banner.svg" alt="Token Economy Banner" width="100%"/>
 </p>
@@ -130,3 +151,11 @@ py cli.py rollback                                 # Instant 1-command undo to p
 
 **Copyright © 2026 Mehmet (`sniplayergamer-hash`). All Rights Reserved.**  
 This software is **not** open-source (not MIT/GPL). Users are granted a limited license solely to run the official signed `User Edition` and submit declarative extension proposals. **Unauthorized copying, forking, redistribution, derivative/competing projects, reverse engineering, or feeding any part of this codebase/architecture into AI/LLM systems for cloning or training is strictly prohibited.** See [LICENSE](LICENSE) for full legal terms.
+
+<!-- TE_HW_GUIDE_START -->
+### Hardware VRAM Tiers, ON/OFF Power, Unity KitWright MCP & Mobile Control (`v0.4.0`)
+- **Auto VRAM Lock:** Models exceeding 88% of live GPU VRAM budget are automatically locked to avoid system freezes (`6GB: 4b` · `8GB: 4b/7b/9b` · `16GB: 14b` · `24-32GB+: 32b`).
+- **ON/OFF VRAM Release:** Toggling **OFF** stops every loaded model via `ollama stop` + `keep_alive: 0` to free 100% GPU.
+- **Unity & Blender Mode:** Keep 3D layout, procedural geometry, shaders, and KitWright MCP `execute_code` on Cloud Architect; offload C# `repo_map`, `local_inspect`, and wiring to local Ollama.
+- **Mobile APK + Frozen Relay WoL (`v0.4.0`):** Monitor/control **Antigravity**, **Desktop**, and **Unity/Blender** live from your phone behind a **4-digit anti-theft PIN** (re-locks on every app close/reopen). For off-Wi-Fi PC wake-up, install the fixed **TokenEconomy-Relay.apk** once on a 2nd phone at home with **BOTH Home Wi-Fi and Mobile Data ON** + Battery Optimization disabled, and enable BIOS `Power On By PCI-E` / `Wake on LAN` (`ErP Ready: Disabled`).
+<!-- TE_HW_GUIDE_END -->
