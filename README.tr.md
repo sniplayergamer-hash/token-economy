@@ -114,9 +114,10 @@ Bulut kodlama ajanlarında kotayı bitiren şey "mimari düşünme" değildir; *
 Bu yazılım açık kaynaklı (MIT/GPL) **değildir**. Telif sahibinin yazılı izni olmadan **kopyalanması, çatallanması (fork), türev/benzer proje yapılması, tersine mühendislik uygulanması veya kodlarının/mimarisinin yapay zekâ modellerine okutularak klonlatılması** kesinlikle yasaktır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
 
 <!-- TE_HW_GUIDE_START -->
-### Donanım VRAM Rehberi, ON/OFF Güç Anahtarı, Unity KitWright MCP & Mobil APK (`v0.4.0`)
+### Donanım VRAM Rehberi, ON/OFF Güç Anahtarı, RTK 1.2.1 Köprüsü, Unity KitWright MCP & Mobil APK (`v0.4.3`)
 - **Otomatik VRAM Kilidi:** Canlı GPU bütçesinin %88'ini aşan modeller ekran kartını kilitlemesin diye kilitlenir (`6GB: 4b` · `8GB: 4b/7b/9b` · `16GB: 14b` · `24-32GB+: 32b`).
 - **ON/OFF VRAM Boşaltma:** **KAPALI** yapıldığında tüm modeller `ollama stop` + `keep_alive: 0` ile boşaltılıp GPU anında serbest kalır.
+- **RTK 1.2.1 Tam Köprü & Memory Bank (`v0.4.3`):** Şeffaf `PreToolUse` CLI sıkıştırma kancası (`te-rtk-rewrite`), kayıpsız SQLite/`@ref` geri çağırma (`expand_ref`), `rtk_analytics` (`gain`, `discover`, `hook-audit`, `learn`) ve `rtk_manage` (`verify`, `trust`, `pipe`, `llm-proxy`) MCP araçları, sağ panel canlı RTK kokpiti ve oturumlar arası `memory-bank/` becerisi.
 - **Unity & Blender Modu:** 3D sahne, geometri, shader ve KitWright MCP `execute_code` adımlarını bulut mimarda tutar; C# `repo_map`, `local_inspect` ve kablolamayı yerel Ollama'ya devreder.
-- **Mobil Kontrol APK & Sabit 2. Cihaz Röle (`v0.4.0`):** **Antigravity**, **Masaüstü** ve **Unity/Blender** ekranlarını eklentiden belirlenen **4 haneli çalınma korumalı PIN** ile mobilden canlı yönetin. Wi-Fi dışından PC açmak için sabit **TokenEconomy-Relay.apk**'yı evde duran 2. telefona 1 kez kurun (**hem Ev Wi-Fi hem Mobil Veri açık**, pil kısıtlaması kapalı) ve BIOS'tan `Power On By PCI-E` / `Wake on LAN` (`ErP Ready: Disabled`) açın. Ana APK eklenti güncellenince tek tıkla birlikte yenilenir.
+- **Mobil Kontrol APK & Sabit 2. Cihaz Röle (`v0.4.3`):** **Antigravity**, **Masaüstü** ve **Unity/Blender** ekranlarını eklentiden belirlenen **4 haneli çalınma korumalı PIN** ile mobilden canlı yönetin ve LAN üzerinden tek tıkla OTA APK güncelleyin. Wi-Fi dışından PC açmak için sabit **TokenEconomy-Relay.apk**'yı evde duran 2. telefona 1 kez kurun (**hem Ev Wi-Fi hem Mobil Veri açık**, pil kısıtlaması kapalı) ve BIOS'tan `Power On By PCI-E` / `Wake on LAN` (`ErP Ready: Disabled`) açın.
 <!-- TE_HW_GUIDE_END -->
