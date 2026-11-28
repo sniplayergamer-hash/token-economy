@@ -59,9 +59,10 @@ Her `run_command` çağrısından önce ek süreç başlatmadan **0 ms** içinde
 ## 📊 Tıklanabilir Proje Bazlı Token Tasarruf Kokpiti
 
 Sağ panelden (`[Token Economy](sidecar://token-economy/token_economy_panel/)`) veya `py cli.py ui` ile açılır:
-- **Tıklanabilir Token Kutusu:** Tasarruf kutusuna tıkladığınızda **Proje & Alan Bazlı Kırılım** penceresi açılır; hangi projede hangi alandan (`AST/Inspect`, `Slim`, `Dedup`, `RTK CLI`) kaç token kurtarıldığını ve son dosya/komut kayıtlarını canlı gösterir.
+- **Tıklanabilir Token Kutusu:** Tasarruf kutusuna (`~karakter / 4` yerel ölçüm tahmini, fatura verisi değildir) tıkladığınızda **Proje & Alan Bazlı Kırılım** penceresi açılır; hangi projede hangi alandan (`AST/Inspect`, `Slim`, `Dedup`, `RTK CLI`) ne kadar tasarruf edildiğini ve son kayıtları canlı gösterir.
+- **RTK Notu:** CLI komut sıkıştırması için isteğe bağlı harici `rtk` aracı (`https://github.com/rtk-ai/rtk`) gerekir. `rtk` kurulu değilse `PreToolUse` kancası yine de yıkıcı komut güvenlik kilidini sorunsuz çalıştırır.
+- **Varsayılan Güvenlik (`v0.4.5`):** Daemon varsayılan olarak yalnızca `127.0.0.1` (yerel makine) üzerinde dinler; `GET /` localhost dışına asla oturum tokenı gömmez; mobil kontrol PIN ayarlanmadan açılmaz (fail-closed); `rtk_binary_path` ağ paylaşımı yollarını reddeder; güncelleme doğrulaması sabit `maintainer.pub` Ed25519 anahtarıyla yapılır.
 - **Tek Tıkla Temizleme:** Detay penceresindeki **🧹 Temizle** düğmesiyle (`POST /api/telemetry/clear`) tasarruf geçmişini istediğiniz an sıfırlayabilirsiniz.
-- **Otomatik Sidecar Token Yenileme:** Daemon yeniden başladığında `401` almadan güncel tokena otomatik geçer.
 
 ---
 
@@ -84,7 +85,6 @@ Antigravity eklentisiyle birlikte otomatik kurulur:
 
 ---
 
-## ⚖️ Telif Hakkı ve Lisans (`All Rights Reserved`)
+## ⚖️ Lisans (`MIT`)
 
-**Copyright © 2026 Mehmet (`sniplayergamer-hash`). Tüm Hakları Saklıdır.**  
-Bu yazılım açık kaynaklı (MIT/GPL) **değildir**. Telif sahibinin yazılı izni olmadan **kopyalanması, çatallanması (fork), türev/benzer proje yapılması, tersine mühendislik uygulanması veya kodlarının/mimarisinin yapay zekâ modellerine okutularak klonlatılması** kesinlikle yasaktır. Ayrıntılar için [LICENSE](LICENSE) dosyasına bakınız.
+[MIT Lisansı](LICENSE) altında yayınlanmıştır © 2026 Mehmet (`sniplayergamer-hash`). Bağımsız güvenlik incelemeleri ve yerel özelleştirmeler serbesttir.

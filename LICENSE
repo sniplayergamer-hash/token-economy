@@ -1,140 +1,21 @@
-TOKEN ECONOMY — PROPRIETARY SOFTWARE & ANTI-CLONING LICENSE
-Copyright (c) 2026 Mehmet (sniplayergamer-hash). All Rights Reserved.
+MIT License
 
-(In the event of any discrepancy between the English and Turkish versions,
-the English text below shall govern.)
+Copyright (c) 2026 Mehmet (sniplayergamer-hash)
 
-================================================================================
-1. OWNERSHIP & COPYRIGHT
-================================================================================
-The "Token Economy" software, its core architecture ("Athlete Brain +
-Deterministic Engine + Apprentice Hand"), Zero-Trust Curator Funnel, 6-Layer
-Context Armor, source code, compiled binaries, visual designs, documentation,
-and cryptographic schemes (collectively, the "Software") are the exclusive
-property of Mehmet (sniplayergamer-hash) under international copyright laws and
-intellectual property treaties. This Software is NOT open source (not MIT,
-Apache, or GPL).
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-================================================================================
-2. LIMITED END-USER GRANT
-================================================================================
-Users who obtain the Software from the copyright holder's official distribution
-channel are granted a limited, non-exclusive, revocable right solely to:
-  (a) Run the official signed user build ("User Edition") on their own
-      computer(s);
-  (b) Submit signed enhancement proposals to the Software's permitted
-      declarative extension surface (`extensions/`) via the official packager.
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-================================================================================
-3. STRICT PROHIBITIONS (ANTI-CLONE & ANTI-AI-COPY)
-================================================================================
-Without the prior written and signed permission of the copyright holder, the
-following actions are strictly PROHIBITED:
-
-  1. NO FORKING / REDISTRIBUTION:
-     Copying, reproducing, publishing on another GitHub/Git repository,
-     redistributing, or selling all or any part of the Software.
-
-  2. NO REVERSE ENGINEERING:
-     Decompiling, disassembling, reverse engineering, modifying, or bypassing
-     compiled builds (`User Edition`), binaries, or cryptographic signature /
-     watermark mechanisms.
-
-  3. NO AI CLONING / TRAINING:
-     Feeding the Software's code, architectural contract, prompt structures,
-     UI, or documentation into any Large Language Model (LLM), coding agent,
-     or AI system to generate, clone, or replicate a similar/derivative
-     project, or for model training or fine-tuning.
-
-  4. NO DERIVATIVE WORKS:
-     Developing a similar or competing software, plugin, or service based on
-     the architectural flow or components of this Software.
-
-================================================================================
-4. COMMUNITY SUBMISSIONS
-================================================================================
-All enhancement proposals submitted by users under `extensions/` are deemed
-perpetually, irrevocably, and royalty-free licensed to the copyright holder
-upon submission to use, modify, and distribute within the main "Token Economy"
-project. The authority to manage, sign, and publish the main repository and
-official releases belongs exclusively to the copyright holder ("Maintainer
-Edition").
-
-================================================================================
-5. ENFORCEMENT & DMCA
-================================================================================
-Any violation of this license automatically terminates your right to use the
-Software, and the copyright holder reserves the right to immediately pursue
-DMCA Takedown notices and all available civil and criminal remedies under
-national and international law.
-
-
---------------------------------------------------------------------------------
-TÜRKÇE ÇEVİRİ / TURKISH TRANSLATION
---------------------------------------------------------------------------------
-
-TOKEN ECONOMY — PROPRIETARY SOFTWARE & ANTI-CLONING LICENSE
-Copyright (c) 2026 Mehmet (sniplayergamer-hash). Tüm Hakları Saklıdır.
-
-================================================================================
-1. MÜLKİYET VE TELİF HAKKI
-================================================================================
-"Token Economy" yazılımı, çekirdek mimarisi ("Athlete Brain + Deterministic
-Engine + Apprentice Hand"), Zero-Trust Küratör Hunisi, 6'lı Context Zırhı,
-kaynak kodları, derlenmiş ikili dosyaları (binaries), görsel tasarımları,
-dokümantasyonu ve kriptografik şemaları (birlikte "Yazılım") uluslararası
-telif hakkı yasaları ve fikrî mülkiyet sözleşmeleri kapsamında Mehmet
-(sniplayergamer-hash) mülkiyetindedir. Bu yazılım açık kaynaklı (MIT/Apache/GPL)
-DEĞİLDİR.
-
-================================================================================
-2. KULLANIM İZNİ — YALNIZ SON KULLANICI
-================================================================================
-Telif sahibinin resmî dağıtım kanalından indiren kullanıcılara yalnızca:
-  (a) Yazılımın resmî imzalı kullanıcı sürümünü ("User Edition") kendi
-      bilgisayarlarında çalıştırma,
-  (b) Yazılımın izinli deklaratif uzantı yüzeyine (`extensions/`) resmî
-      paketleyici aracılığıyla imzalı geliştirme önerisi gönderme
-hakkı tanınmıştır.
-
-================================================================================
-3. KESİN YASAKLAR (ANTI-CLONE & ANTI-AI-COPY)
-================================================================================
-Telif sahibinin önceden yazılı ve imzalı izni olmaksızın aşağıdaki eylemler
-kesinlikle YASAKTIR:
-
-  1. KOPYALAMA VE ÇATALLAMA (NO FORKING / REDISTRIBUTION):
-     Yazılımın tamamını veya herhangi bir parçasını kopyalamak, çoğaltmak,
-     başka bir GitHub/Git deposunda yayınlamak, yeniden dağıtmak veya satmak.
-
-  2. TERSİNE MÜHENDİSLİK (NO REVERSE ENGINEERING):
-     Derlenmiş sürümleri (`User Edition`), ikili dosyaları veya kriptografik
-     imza/damga (`watermark`) mekanizmalarını kaynak koda dönüştürmek
-     (decompile, disassemble), değiştirmek veya devre dışı bırakmak.
-
-  3. YAPAY ZEKÂ İLE KLONLAMA VE EĞİTİM YASAĞI (NO AI CLONING / TRAINING):
-     Yazılımın kodlarını, mimari sözleşmesini, istem (prompt) yapılarını,
-     arayüzünü veya dokümantasyonunu herhangi bir Büyük Dil Modeline (LLM),
-     kodlama ajanına veya yapay zekâ sistemine vererek benzer/türev bir proje
-     ürettirmek, klonlatmak veya model eğitiminde/ince ayarında kullanmak.
-
-  4. TÜREV VE RAKİP PROJE YASAĞI (NO DERIVATIVE WORKS):
-     Bu yazılımın mimari akışını veya bileşenlerini temel alan benzer/türev
-     bir yazılım, eklenti veya servis geliştirmek.
-
-================================================================================
-4. KATKILAR VE İMZALI ÖNERİLER
-================================================================================
-Kullanıcıların `extensions/` altına gönderdiği tüm geliştirme önerileri,
-gönderildiği andan itibaren ana "Token Economy" projesinde kullanılmak,
-değiştirilmek ve dağıtılmak üzere telif sahibine süresiz, gayrikabili rücu ve
-ücretsiz olarak lisanslanmış sayılır. Ana depoyu ve resmî sürümleri yönetme,
-imzalama ve yayınlama yetkisi münhasıran telif sahibine (`Maintainer Edition`)
-aittir.
-
-================================================================================
-5. İHLAL VE YAPTIRIM (ENFORCEMENT & DMCA)
-================================================================================
-Bu sözleşmenin ihlali halinde kullanım lisansı kendiliğinden sona erer ve
-telif sahibi DMCA Takedown (depo kapatma) ile ulusal/uluslararası hukuki ve
-cezai yaptırım haklarını derhal kullanır.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

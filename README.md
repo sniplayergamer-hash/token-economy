@@ -59,9 +59,10 @@ Running in **0 ms** inside `te_rtk_hook.py` before every `run_command` call (wit
 ## 📊 Clickable Per-Project Token Savings Cockpit
 
 Open the right-pane Sidecar (`[Token Economy](sidecar://token-economy/token_economy_panel/)`) or run `py cli.py ui`:
-- **Clickable Token Savings Card:** Click the verified saved-tokens card to open the **Per-Project & Per-Area Breakdown** modal (`AST/Inspect`, `Slim`, `Dedup`, `RTK CLI`) with recent file/command savings records.
+- **Clickable Token Savings Card:** Click the estimated saved-tokens card (`~chars / 4` local measurement, not billed cloud API telemetry) to open the **Per-Project & Per-Area Breakdown** modal (`AST/Inspect`, `Slim`, `Dedup`, `RTK CLI`) with recent file/command records.
+- **Note on RTK:** CLI compression requires the optional external `rtk` binary (`https://github.com/rtk-ai/rtk`). If `rtk` is not installed, the `PreToolUse` hook still runs the destructive-command safety gate cleanly.
+- **Security by Default (`v0.4.5`):** Daemon binds strictly to `127.0.0.1` (local-only) by default; `GET /` never embeds session tokens for non-localhost clients; remote mobile control is fail-closed until a 4-digit PIN is configured; `rtk_binary_path` rejects UNC/network paths; and self-updates verify against the pinned `maintainer.pub` Ed25519 key.
 - **One-Click Clear:** Reset telemetry history anytime via the **Clear** button (`POST /api/telemetry/clear`).
-- **Auto-Recovery Sidecar:** Automatically refreshes stale daemon tokens on `401` after daemon restarts.
 
 ---
 
@@ -84,7 +85,6 @@ Installed automatically with the Antigravity plugin:
 
 ---
 
-## ⚖️ Copyright & Proprietary License (`All Rights Reserved`)
+## ⚖️ License (`MIT`)
 
-**Copyright © 2026 Mehmet (`sniplayergamer-hash`). All Rights Reserved.**  
-This software is **not** open-source (not MIT/GPL). Users are granted a limited license solely to run the official signed `User Edition`. **Unauthorized copying, forking, redistribution, derivative/competing projects, reverse engineering, or feeding any part of this codebase/architecture into AI/LLM systems for cloning or training is strictly prohibited.** See [LICENSE](LICENSE) for full legal terms.
+Released under the [MIT License](LICENSE) © 2026 Mehmet (`sniplayergamer-hash`). Independent security audits, code reviews, and local customization are welcome.
