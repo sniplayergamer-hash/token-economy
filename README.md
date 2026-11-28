@@ -8,7 +8,7 @@
 > **`"Install this as a plugin on my system: https://github.com/sniplayergamer-hash/token-economy"`**
 >
 > **3 Steps to Ready:**
-> 1. **Install:** Your AI assistant downloads the Ed25519-signed `User Edition` release (`v0.4.4`) and registers the plugin, `PreToolUse` hook, and 12-tool MCP server automatically.
+> 1. **Install:** Your AI assistant downloads the Ed25519-signed `User Edition` release (`v0.4.5`) and registers the plugin, `PreToolUse` hook, and 12-tool MCP server automatically.
 > 2. **Verify:** Ask **"Is Token Economy ready?"** — the AI runs `te_doctor` to verify RTK 1.2.1 filters, the destructive-command safety gate, and Antigravity MCP/hook/skill contracts.
 > 3. **Open Cockpit:** Click the **Token Economy** right-pane panel link in chat (or run `py cli.py ui`) to view live verified token savings by project/area, RTK analytics, and optional Mobile Control.
 >
@@ -32,19 +32,19 @@
 
 ---
 
-> **Token Economy (`v0.4.4`)** is a **feature-frozen, 0-LLM deterministic MCP server, `PreToolUse` safety/compression hook, and Antigravity right-pane Sidecar cockpit** designed to cut cloud coding token waste with **zero hallucinations and zero VRAM overhead**.
+> **Token Economy (`v0.4.5`)** is a **feature-frozen, 0-LLM deterministic MCP server, `PreToolUse` safety/compression hook, and Antigravity right-pane Sidecar cockpit** designed to cut cloud coding token waste with **zero hallucinations and zero VRAM overhead**.
 
 ---
 
 ## 🎯 Feature-Frozen 12-Tool Deterministic Core
 
-Instead of delegating fragile code edits to small local LLMs, `v0.4.4` focuses exclusively on **12 rock-solid, 100% deterministic tools** (0 LLM, 0 VRAM, 0 `PatchError` loops):
+Instead of delegating fragile code edits to small local LLMs, `v0.4.5` focuses exclusively on **12 rock-solid, 100% deterministic tools** (0 LLM, 0 VRAM, 0 `PatchError` loops):
 
 | Category | MCP Tools | What It Does |
 | :--- | :--- | :--- |
-| **Code Discovery & Impact** | `repo_map`, `local_inspect`, `blast_radius`, `audit_startup` | Fair round-robin symbol map (skips browser profiles/caches, indexes nested factory functions); AST + verbatim line slicer for large files/JSON/datasets; multi-language impact analysis (including HTML `<script>`); startup rule/context bloat auditor. |
+| **Code Discovery & Impact** | `repo_map`, `local_inspect`, `blast_radius`, `audit_startup` | Fair round-robin symbol map (skips lockfiles like `package-lock.json`/`Cargo.lock` and browser profiles/caches, indexes nested factory functions); AST + verbatim line slicer for large files/JSON/datasets; multi-language impact analysis (including HTML `<script>`); startup rule/context bloat auditor. |
 | **CLI Compression & Recall** | `run_slim`, `expand_ref`, `rtk_analytics`, `rtk_manage` | Transparent `PreToolUse` **RTK 1.2.1** command compression (`te-rtk-rewrite`), lossless `@ref` & SQLite recall (`expand_ref`), and live savings analytics (`gain`, `discover`, `hook-audit`, `verify`, `pipe`). |
-| **Diagnostics & Context** | `te_status`, `te_doctor`, `hot_state`, `project_mode` | Hardware/RTK/safety-gate/Antigravity MCP & hook contract verification (`te_doctor`), 12-line session handoff (`hot_state`), and `general` / `unity` / `blender` project detection. |
+| **Diagnostics & Context** | `te_status`, `te_doctor`, `hot_state`, `project_mode` | Hardware/RTK/safety-gate/Antigravity MCP & hook contract verification (`te_doctor`), `active_models` visibility reflecting the configured installed default model (`te_status`), 12-line session handoff (`hot_state`), and `general` / `unity` / `blender` project detection. |
 
 ---
 

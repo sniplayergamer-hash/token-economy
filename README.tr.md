@@ -8,7 +8,7 @@
 > **`"Bunu sistemime eklenti olarak kur: https://github.com/sniplayergamer-hash/token-economy"`**
 >
 > **3 Adımda Hazır:**
-> 1. **Kurulum:** Yapay zekâ ajanı Ed25519 imzalı `User Edition` (`v0.4.4`) paketini indirip eklentiyi, `PreToolUse` kancasını ve 12 araçlık MCP sunucusunu otomatik kurar.
+> 1. **Kurulum:** Yapay zekâ ajanı Ed25519 imzalı `User Edition` (`v0.4.5`) paketini indirip eklentiyi, `PreToolUse` kancasını ve 12 araçlık MCP sunucusunu otomatik kurar.
 > 2. **Doğrulama:** **"Eklenti kullanıma hazır mı?"** diye sorun — ajan `te_doctor` çalıştırarak RTK 1.2.1 filtrelerini, yıkıcı komut güvenlik kilidini ve Antigravity MCP/hook/beceri kontratlarını doğrular.
 > 3. **Kokpit:** Sohbetteki **Token Economy** sağ panel bağlantısına tıklayın (veya `py cli.py ui` çalıştırın); proje/alan bazlı gerçek token tasarrufunu, RTK istatistiklerini ve isteğe bağlı Mobil Kontrolü canlı izleyin.
 >
@@ -32,19 +32,19 @@
 
 ---
 
-> **Token Economy (`v0.4.4`)**, bulut kodlama ajanlarının token israfını **sıfır halüsinasyon ve sıfır VRAM yüküyle** azaltan, özellikleri dondurulmuş (feature-frozen) **12 araçlık deterministik MCP sunucusu, `PreToolUse` güvenlik/sıkıştırma kancası ve Antigravity sağ panel kokpitidir.**
+> **Token Economy (`v0.4.5`)**, bulut kodlama ajanlarının token israfını **sıfır halüsinasyon ve sıfır VRAM yüküyle** azaltan, özellikleri dondurulmuş (feature-frozen) **12 araçlık deterministik MCP sunucusu, `PreToolUse` güvenlik/sıkıştırma kancası ve Antigravity sağ panel kokpitidir.**
 
 ---
 
 ## 🎯 Özellikleri Dondurulmuş 12 Araçlık Deterministik Çekirdek
 
-`v0.4.4`, küçük yerel LLM'lerle kırılgan kod düzenleme döngülerine girmek yerine yalnızca **%100 deterministik 12 çekirdek araca** odaklanır (0 LLM, 0 VRAM, 0 `PatchError` döngüsü):
+`v0.4.5`, küçük yerel LLM'lerle kırılgan kod düzenleme döngülerine girmek yerine yalnızca **%100 deterministik 12 çekirdek araca** odaklanır (0 LLM, 0 VRAM, 0 `PatchError` döngüsü):
 
 | Kategori | MCP Araçları | Ne İşe Yarar? |
 | :--- | :--- | :--- |
-| **Kod Keşfi & Etki Analizi** | `repo_map`, `local_inspect`, `blast_radius`, `audit_startup` | Tarayıcı profil/önbelleklerini atlayan, üst dizinleri dengeli (round-robin) haritalayan ve iç içe fabrika fonksiyonlarını indeksleyen sembol haritası; büyük dosyalar/JSON/veri setleri için deterministik AST + birebir satır kesiti; Python/JS/TS/HTML `<script>`/C#/Rust/Go etki analizi; başlangıç kural/bağlam şişmesi denetimi. |
+| **Kod Keşfi & Etki Analizi** | `repo_map`, `local_inspect`, `blast_radius`, `audit_startup` | Kilit dosyalarını (`package-lock.json`, `Cargo.lock` vb.) ve tarayıcı profil/önbelleklerini atlayan, üst dizinleri dengeli (round-robin) haritalayan ve iç içe fabrika fonksiyonlarını indeksleyen sembol haritası; büyük dosyalar/JSON/veri setleri için deterministik AST + birebir satır kesiti; Python/JS/TS/HTML `<script>`/C#/Rust/Go etki analizi; başlangıç kural/bağlam şişmesi denetimi. |
 | **CLI Sıkıştırma & Geri Çağırma** | `run_slim`, `expand_ref`, `rtk_analytics`, `rtk_manage` | Şeffaf `PreToolUse` **RTK 1.2.1** komut sıkıştırma kancası (`te-rtk-rewrite`), kayıpsız `@ref` ve SQLite geri açma (`expand_ref`) ve canlı tasarruf analitiği (`gain`, `discover`, `hook-audit`, `verify`, `pipe`). |
-| **Tanı & Oturum Bağlamı** | `te_status`, `te_doctor`, `hot_state`, `project_mode` | Donanım, RTK filtreleri, güvenlik kilidi ve Antigravity MCP/hook/beceri kontrat doğrulaması (`te_doctor`), 12 satırlık oturum belleği (`hot_state`) ve `general` / `unity` / `blender` proje tespiti. |
+| **Tanı & Oturum Bağlamı** | `te_status`, `te_doctor`, `hot_state`, `project_mode` | Donanım, RTK filtreleri, güvenlik kilidi ve Antigravity MCP/hook/beceri kontrat doğrulaması (`te_doctor`), kurulu varsayılan modeli yansıtan `active_models` görünürlüğü (`te_status`), 12 satırlık oturum belleği (`hot_state`) ve `general` / `unity` / `blender` proje tespiti. |
 
 ---
 
